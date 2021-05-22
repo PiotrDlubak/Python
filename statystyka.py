@@ -229,7 +229,7 @@ pyplot.show()
 
 
 
-# Shapiro-Wilk Test normalnoci
+# Shapiro-Wilk Test normalności
 
 print()
 print("sprawdzenie normalnosci rozkładu próbki badawczej w oparciu o Shapiro-Wilk Test:")
@@ -249,10 +249,9 @@ print("sprawdzenie normalnosci rozkładu próbki badawczej w oparciu o D'Agostin
 print()
 
 
-# D'Agostino and Pearson's Test
+# D'Agostino and Pearson's Test normalności
 
 
-# normality test
 stat, p = normaltest(dochody)
 print('Statystyka = %.3f, p-value = %.3f' % (stat, p))
 alpha = 0.05
